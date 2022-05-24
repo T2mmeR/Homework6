@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".Activity_Two">
+
+    <EditText
+        android:id="@+id/editTextPhoto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Photo URL"
+        android:layout_margin="10dp"
+        android:inputType="textPersonName"
+        />
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:hint="სახელი"
+        android:inputType="textPersonName"
+         />
+
+    <EditText
+        android:id="@+id/editTextLastName"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+         android:layout_marginTop="10dp"
+        android:hint="გვარი"
+        android:inputType="textPersonName"
+         />
+
+    <EditText
+        android:id="@+id/editTextAge"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="10dp"
+        android:hint="ასაკი"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:inputType="textPersonName"
+         />
+
+    <EditText
+        android:id="@+id/editTextJob"
+        android:layout_width="300dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="პროფესია"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:inputType="textPersonName"
+         />
+
+    <EditText
+        android:id="@+id/editTextHobby"
+        android:layout_width="300dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="ჰობი"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:inputType="textPersonName"
+         />
+
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="100dp"
+        android:text="შენახვა" />
+</LinearLayout>
